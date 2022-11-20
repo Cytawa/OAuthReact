@@ -14,7 +14,7 @@ export const Wrapper = () => {
   const toast = useToast();
 
   const fetchUser = useCallback(async () => {
-    if (!localStorage.getItem(ACCESS_TOKEN) || context.currentUser) {
+    if (context.currentUser) {
       return;
     }
 

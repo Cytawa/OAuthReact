@@ -1,0 +1,13 @@
+.container {
+  height: 100vh;
+}
+
+.menu-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  height: 5vh;
+  background-color: #eeeeee;
+}

@@ -1,0 +1,7 @@
+.start-page-container {
+  display: flex;
+  height: 95vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

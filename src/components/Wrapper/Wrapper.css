@@ -11,3 +11,13 @@
   height: 5vh;
   background-color: #eeeeee;
 }
+
+.nav-logged {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-logged > span {
+  margin-right: 24px;
+}

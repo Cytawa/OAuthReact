@@ -1,4 +1,3 @@
-import axios from "axios";
 import { authorizedApi } from "../hooks/useAxios";
 import { User } from "../models/User";
 
